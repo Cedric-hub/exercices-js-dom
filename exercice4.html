@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Exercice4</title>
+    <meta charset=utf‐8 />
+    <link rel="stylesheet" href="asset/css/style_exercices.css">
+</head>
+
+<body onload="alert('U R WELCOME !');">
+    <p>
+        <button onclick="alert('You will change the background color !'); fondnoir()" id="bgColor">Background
+            Color</button>
+    </p>
+    <p>
+        <button id="button2" onclick="alert('Now I am Red !'); buttonRed()" id="bgColor">Change my color</button>
+    </p>
+    <p>
+        <button onclick="document.location.reload(false)">Back to Normal</button>
+    </p>
+    <p>
+        <img id='john' src="asset/img/john.jpg" alt="John" width="250px"
+            onmouseover="document.getElementById('john').src='asset/img/john2.jpg'"
+            onmouseout="document.getElementById('john').src='asset/img/john.jpg'">
+    </p>
+
+    <script src="asset/js/exercices.js"></script>
+</body>
+
+</html>

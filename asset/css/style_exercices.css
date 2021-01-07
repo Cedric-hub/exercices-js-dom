@@ -1,0 +1,8 @@
+/* Exercice 1 */
+
+.active {
+    color: white;
+    background-color: black;
+    border-style: dotted;
+    padding: 5px;
+}
